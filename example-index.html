@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU"
+        crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Average+Sans|Josefin+Sans" rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Homepage</title>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar">
+            <a href="./index.html" id="active">
+                <i class="fas fa-leaf"></i>
+                Renew Soul
+            </a>
+            <a href="#" id="search"><i class="fas fa-search"></i></a>
+            <a href="./contact.html">Contact</a>
+            <a href="./about.html">About</a>
+            <a href="./resources.html">Resources</a>
+
+            <nav id="primary_nav_wrap" style="float:right;">
+                <ul>
+                    <li><a href="#">Explore</a>
+                        <ul>
+                            <li><a href="#">Cannabis</a></li>
+                            <li><a href="#">MDMA</a></li>
+                            <li><a href="#">Psilocybin</a></li>
+                            <li><a href="#">LSD</a>
+                        </ul>
+                        </li>
+                </ul>
+            </nav>
+
+
+            <a aria-expanded='false' aria-controls='mobile-menu' href="javascript:void(0);" class="icon" onclick="openOverlay()">
+                <i class="fa fa-bars"></i>
+            </a>
+        </nav>
+
+        <div class="overlay" id="overnav" aria-hidden='true'>
+            <a href="javascript:void(0)" class="closebtn" onclick="closeOverlay()">
+                <i class="far fa-times-circle"></i>
+            </a>
+            <div class="overlay-content">
+                <a href="./index.html" id="active">
+                    <i class="fas fa-leaf"></i>
+                    Homepage
+                </a>
+                <a href="#">Explore</a>
+                <a href="./resources.html">Resources</a>
+                <a href="./about.html">About</a>
+                <a href="./contact.html">Contact</a>
+            </div>
+        </div>
+    </header>
+
+    <div class="hero">
+        <div class="hero-container">
+            <div class="hero-content">
+                <h2>Exploring Psychoactive Substances</h2>
+                <p> A credible source of information around psychoactive substances.</p>
+                <div class="button-center">
+                    <form action="./resources.html">
+                        <input id="button-submit" type="submit" value="Find Out More" />
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="pic-wrapper">
+        <figure class="pic-1"></figure>
+        <figure class="pic-2"></figure>
+        <figure class="pic-3"></figure>
+        <figure class="pic-4"></figure>
+    </div>
+
+    <div class="wrapper">
+        <h2>News Feed</h2>
+    </div>
+
+    <main>
+        <div class="news-wrapper">
+            <div class="card">
+                <img src="./img/news-feed/news1.jpg" alt="Avatar" style="width:100%">
+                <div class="container">
+                    <h4><b>New Horizons</b></h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                        et dolore magna aliqua. Lut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
+                        ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                        cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa
+                        qui officiae deserunt mollit anim id est laborum.</p>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="./img/news-feed/news3.jpg" alt="Avatar" style="width:100%">
+                <div class="container">
+                    <h4><b>Team Work</b></h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                        et dolore magna aliqua. Lut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
+                        ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                        cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa
+                        qui officiae deserunt mollit anim id est laborum.</p>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="./img/news-feed/news4.jpg" alt="Avatar" style="width:100%">
+                <div class="container">
+                    <h4><b>Progress</b></h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                        et dolore magna aliqua. Lut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
+                        ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                        cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa
+                        qui officiae deserunt mollit anim id est laborum.</p>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="./img/news-feed/news5.jpg" alt="Avatar" style="width:100%">
+                <div class="container">
+                    <h4><b>A New Perspective</b></h4>
+                    <p>ALorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                        et dolore magna aliqua. Lut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
+                        ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                        cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa
+                        qui officiae deserunt mollit anim id est laborum.</p>
+                </div>
+            </div>
+            </div>
+
+        <footer>
+            <div class="footer-container">
+                <div class="footer-section">
+                    <div class="footer-content">
+                        <h5>Our Mission</h5>
+                        <ul>
+                            <li><a href="#">How to Guides</a></li>
+                            <li><a href="#">Risks + Safety</a></li>
+                            <li><a href="#">Emerging Studies</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-content">
+                        <h5>About us</h5>
+                        <ul>
+                            <li><a href="#">About</a></li>
+                            <li><a href="#">News</a></li>
+                            <li><a href="#">Team</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer-social">
+                <a href="#">
+                    <i class="fab fa-facebook-square"></i>
+                </a>
+                <a href="#">
+                    <i class="fab fa-linkedin"></i>
+                </a>
+                <a href="#">
+                    <i class="fab fa-google-plus-square"></i>
+                </a>
+                <a href="#">
+                    <i class="fab fa-twitter-square"></i>
+                </a>
+            </div>
+        </footer>
+
+        <script src="./js/myscript.js"></script>
+</body>
+
+</html>
